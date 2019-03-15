@@ -1,0 +1,11 @@
+[package]
+name = "rust-cmake-boringssl"
+version = "0.1.0"
+authors = ["<>"]
+edition = "2018"
+
+build="build.rs"
+
+[build-dependencies]
+cmake = "0.1"
+[dependencies]
